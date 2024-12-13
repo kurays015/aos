@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      body {
+        max-width: 1500px;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        min-height: 100vh;
+        font-size: 1.5rem;
+      }
+      h1 {
+        font-size: 8rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+    </style>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>AOS - TEST</title>
+  </head>
+  <body>
+    <section data-aos="fade-up">
+      <h1>Hello World</h1>
+      <p>
+        Made with <span class="heart"> </span> by
+        <a href="https://github.com/michalsnik/aos">testing testing</a>
+      </p>
+    </section>
+
+    <section data-aos="fade-up">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut nostrum sint
+      vel aspernatur maxime voluptatibus architecto. Sit, nesciunt repellat.
+      Quibusdam vero magni expedita. Exercitationem, maxime?
+    </section>
+
+    <section data-aos="fade-right">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut nostrum sint
+      vel aspernatur maxime voluptatibus architecto. Sit, nesciunt repellat.
+      Quibusdam vero magni expedita. Exercitationem, maxime?
+    </section>
+
+    <section data-aos="fade-left">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut nostrum sint
+      vel aspernatur maxime voluptatibus architecto. Sit, nesciunt repellat.
+      Quibusdam vero magni expedita. Exercitationem, maxime?
+    </section>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
